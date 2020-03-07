@@ -147,8 +147,6 @@ found 0 vulnerabilities
 ```sh
 your-terminal> xcode-select --print-path
 /Library/Developer/CommandLineTools
-your-terminal> xcode-select --print-path
-/Applications/Xcode.app/Contents/Developer
 your-terminal> sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/
 your-terminal> xcode-select --print-path
 /Applications/Xcode.app/Contents/Developer
