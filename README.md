@@ -79,13 +79,14 @@ not yet
 
 #### Enviroments
 
-- OS : macOS Catalina Version 10.15.3
-- NodeJS : v13.1.0
-- npm : 6.14.2
+- [macOS Catalina](https://www.apple.com/kr/macos/catalina/) Version 10.15.3
+- [Node.js](https://nodejs.org/ko/) v13.1.0
+- [npm](https://www.npmjs.com/) 6.14.2
 
 #### Problem
 
-임의의 웹 프로젝트를 개발하기 위하여 환경 설정 중, npm 을 이용하여 gulp 를 로컬 프로젝트에 설치하는 과정에서 **gyp: No Xcode or CLT version detected!** 문제 발생
+임의의 웹 프로젝트를 개발하기 위하여 환경 설정 중, npm 을 이용하여 gulp 를 로컬 프로젝트에 설치하는 과정에서 일부 모듈 설치 오류 발생   
+단, gulp 사용하는데 문제는 없음
 
 ```sh
 your-terminal> npm install -D gulp
@@ -149,6 +150,10 @@ your-terminal> sudo xcode-select -switch /Applications/Xcode.app/Contents/Develo
 your-terminal> xcode-select --print-path
 /Applications/Xcode.app/Contents/Developer
 ```
+
+#### Reference
+
+[A answer about similar question in Stackoverflow](https://stackoverflow.com/a/27667694)
 
 
 
