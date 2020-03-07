@@ -30,10 +30,8 @@
 ## Table of Contents 목차
 
 - [Getting Started](#getting-started)
-- [Solution](#solution)
+- [Solutions](#solutions)
     - [Case 1 <kbd>npm</kbd> + <kbd>gulp</kbd>](#case-1)
-- [Usage](#usage)
-- [FAQ](#faq)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
@@ -73,7 +71,7 @@ not yet
 
 
 
-## Solution
+## Solutions
 
 ### Case 1
 
